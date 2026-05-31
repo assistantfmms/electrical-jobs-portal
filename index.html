@@ -227,78 +227,178 @@
       </div>
       <div class="field">
         <div class="choice-group" id="jobTypeGroup">
-          <label class="choice-btn" id="jt-beacon">
-            <input type="radio" name="jobType" value="electrical_beacon_lighting">
+
+          <div style="margin: 0 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Lighting</div>
+          <label class="choice-btn" id="jt-pendant">
+            <input type="radio" name="jobType" value="pendant_light_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">💡</span>
+            Pendant Light Installation
+          </label>
+          <label class="choice-btn" id="jt-chandelier">
+            <input type="radio" name="jobType" value="chandelier_lighting_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">✨</span>
+            Chandelier Lighting Installation
+          </label>
+          <label class="choice-btn" id="jt-outdoor-lighting">
+            <input type="radio" name="jobType" value="outdoor_lighting_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🌿</span>
+            Outdoor Lighting Installation
+          </label>
+          <label class="choice-btn" id="jt-security-sensor">
+            <input type="radio" name="jobType" value="security_sensor_light_installation">
             <div class="choice-dot"></div>
             <span class="emoji">🔦</span>
-            Electrical Beacon Lighting
+            Security Sensor Light Installation
           </label>
-          <label class="choice-btn" id="jt-cooktops">
-            <input type="radio" name="jobType" value="electrical_cooktops_hotplates_ovens">
+          <label class="choice-btn" id="jt-floodlight-camera">
+            <input type="radio" name="jobType" value="floodlight_camera_installation">
             <div class="choice-dot"></div>
-            <span class="emoji">🍳</span>
-            Electrical Cooktops / Hotplates / Ovens
+            <span class="emoji">📷</span>
+            Floodlight Camera Installation
           </label>
-          <label class="choice-btn" id="jt-emergency">
-            <input type="radio" name="jobType" value="electrical_emergency">
-            <div class="choice-dot"></div>
-            <span class="emoji">⚡</span>
-            Electrical Emergency
-          </label>
-          <label class="choice-btn" id="jt-fans">
-            <input type="radio" name="jobType" value="electrical_fans">
+          <label class="choice-btn" id="jt-ceiling-fan-light">
+            <input type="radio" name="jobType" value="ceiling_fan_light_installation">
             <div class="choice-dot"></div>
             <span class="emoji">💨</span>
-            Electrical Fans
+            Ceiling Fan &amp; Light Installation
           </label>
-          <label class="choice-btn" id="jt-gen-install">
-            <input type="radio" name="jobType" value="electrical_gen_install">
+          <label class="choice-btn" id="jt-strip-lighting">
+            <input type="radio" name="jobType" value="strip_lighting_installation">
             <div class="choice-dot"></div>
-            <span class="emoji">⚙️</span>
-            Electrical Gen Install
+            <span class="emoji">〰️</span>
+            Strip Lighting Installation
           </label>
-          <label class="choice-btn" id="jt-gen-maint">
-            <input type="radio" name="jobType" value="electrical_gen_maint">
+          <label class="choice-btn" id="jt-led-downlights">
+            <input type="radio" name="jobType" value="led_downlights_installation">
             <div class="choice-dot"></div>
-            <span class="emoji">🔧</span>
-            Electrical Gen Maint
+            <span class="emoji">⬤</span>
+            LED Downlights Installation
           </label>
-          <label class="choice-btn" id="jt-meter">
-            <input type="radio" name="jobType" value="electrical_meter_relocate">
+          <label class="choice-btn" id="jt-stairs-lighting">
+            <input type="radio" name="jobType" value="stairs_lighting_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🪜</span>
+            Stairs Lighting Installation
+          </label>
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Ceiling Fans</div>
+          <label class="choice-btn" id="jt-ceiling-fan">
+            <input type="radio" name="jobType" value="ceiling_fan_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">💨</span>
+            Ceiling Fan Installation
+          </label>
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Bathroom</div>
+          <label class="choice-btn" id="jt-exhaust-fan">
+            <input type="radio" name="jobType" value="exhaust_fan_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🌀</span>
+            Exhaust Fan Installation
+          </label>
+          <label class="choice-btn" id="jt-3in1-bathroom">
+            <input type="radio" name="jobType" value="3_in_1_bathroom_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🛁</span>
+            3-in-1 Bathroom Installation
+          </label>
+          <label class="choice-btn" id="jt-bathroom-lighting">
+            <input type="radio" name="jobType" value="bathroom_lighting_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🪥</span>
+            Bathroom Lighting Installation
+          </label>
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Kitchen &amp; Appliances</div>
+          <label class="choice-btn" id="jt-kitchen-lighting">
+            <input type="radio" name="jobType" value="kitchen_lighting_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🍽️</span>
+            Kitchen Lighting Installation
+          </label>
+          <label class="choice-btn" id="jt-rangehood">
+            <input type="radio" name="jobType" value="kitchen_rangehood_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🔲</span>
+            Kitchen Rangehood Installation
+          </label>
+          <label class="choice-btn" id="jt-rangehood-lighting">
+            <input type="radio" name="jobType" value="rangehood_lighting_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">💡</span>
+            Rangehood &amp; Lighting Installation
+          </label>
+          <label class="choice-btn" id="jt-oven-replacement">
+            <input type="radio" name="jobType" value="oven_replacement_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🍳</span>
+            Oven Replacement Installation
+          </label>
+          <label class="choice-btn" id="jt-oven-cooktop">
+            <input type="radio" name="jobType" value="oven_cooktop_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">🔥</span>
+            Oven &amp; Cooktop Installation
+          </label>
+          <label class="choice-btn" id="jt-air-conditioner">
+            <input type="radio" name="jobType" value="air_conditioner_installation">
+            <div class="choice-dot"></div>
+            <span class="emoji">❄️</span>
+            Air Conditioner Installation
+          </label>
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Power Outlets &amp; Switchboards</div>
+          <label class="choice-btn" id="jt-power-outlet">
+            <input type="radio" name="jobType" value="power_outlet_installation">
             <div class="choice-dot"></div>
             <span class="emoji">🔌</span>
-            Electrical Meter Relocate
+            Power Outlet Installation
           </label>
-          <label class="choice-btn" id="jt-rewires">
-            <input type="radio" name="jobType" value="electrical_rewires">
+          <label class="choice-btn" id="jt-outdoor-power-outlet">
+            <input type="radio" name="jobType" value="outdoor_power_outlet_installation">
             <div class="choice-dot"></div>
             <span class="emoji">🔌</span>
-            Electrical Rewires
+            Outdoor Power Outlet Installation
           </label>
-          <label class="choice-btn" id="jt-safe-to-rent">
-            <input type="radio" name="jobType" value="electrical_safe_to_rent">
+          <label class="choice-btn" id="jt-switchboard-upgrade">
+            <input type="radio" name="jobType" value="switchboard_upgrade_installation">
             <div class="choice-dot"></div>
-            <span class="emoji">🏠</span>
-            Electrical Safe to Rent
+            <span class="emoji">⚡</span>
+            Switchboard Upgrade Installation
           </label>
-          <label class="choice-btn" id="jt-safety-cert">
-            <input type="radio" name="jobType" value="electrical_safety_certification">
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">EV Chargers</div>
+          <label class="choice-btn" id="jt-ev-charger">
+            <input type="radio" name="jobType" value="ev_charger_installation">
             <div class="choice-dot"></div>
-            <span class="emoji">✅</span>
-            Electrical Safety Certification
+            <span class="emoji">🚗</span>
+            EV Charger Installation
           </label>
-          <label class="choice-btn" id="jt-smoke-alarms">
-            <input type="radio" name="jobType" value="electrical_smoke_alarms">
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Smoke &amp; Safety</div>
+          <label class="choice-btn" id="jt-smoke-detector">
+            <input type="radio" name="jobType" value="smoke_detector_installation">
             <div class="choice-dot"></div>
             <span class="emoji">🚨</span>
-            Electrical Smoke Alarms
+            Smoke Detector Installation
           </label>
-          <label class="choice-btn" id="jt-ev-charger">
-            <input type="radio" name="jobType" value="energy_electric_ev_chargers">
+
+          <div style="margin: 8px 0 4px; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: 0.8px; padding-left: 2px;">Other</div>
+          <label class="choice-btn" id="jt-custom">
+            <input type="radio" name="jobType" value="custom">
             <div class="choice-dot"></div>
-            <span class="emoji">🚗⚡</span>
-            Energy Electric EV Chargers
+            <span class="emoji">✏️</span>
+            Other / Custom Job Type
           </label>
+          <div id="customJobTypeWrap" style="display:none; margin-top: 8px;">
+            <input type="text" id="customJobType" placeholder="e.g. Heated Towel Rail Installation" maxlength="80">
+            <div class="hint">Enter the job type heading exactly as it should appear on the post</div>
+            <div class="error-msg" id="err-customjobtype">Please describe the job type</div>
+          </div>
+
         </div>
         <div class="error-msg" id="err-jobtype">Please select the job type</div>
       </div>
@@ -443,11 +543,14 @@
   let selectedPhoto = null;
 
   // ── JOB TYPE HANDLERS ──
-  const jobTypeIds = ['jt-beacon','jt-cooktops','jt-emergency','jt-fans','jt-gen-install','jt-gen-maint','jt-meter','jt-rewires','jt-safe-to-rent','jt-safety-cert','jt-smoke-alarms','jt-ev-charger'];
+  const jobTypeIds = ['jt-pendant','jt-chandelier','jt-outdoor-lighting','jt-security-sensor','jt-floodlight-camera','jt-ceiling-fan-light','jt-strip-lighting','jt-led-downlights','jt-stairs-lighting','jt-ceiling-fan','jt-exhaust-fan','jt-3in1-bathroom','jt-bathroom-lighting','jt-kitchen-lighting','jt-rangehood','jt-rangehood-lighting','jt-oven-replacement','jt-oven-cooktop','jt-air-conditioner','jt-power-outlet','jt-outdoor-power-outlet','jt-switchboard-upgrade','jt-ev-charger','jt-smoke-detector','jt-custom'];
   jobTypeIds.forEach(id => {
     document.getElementById(id).addEventListener('click', () => {
       document.querySelectorAll('#jobTypeGroup .choice-btn').forEach(b => b.classList.remove('selected'));
       document.getElementById(id).classList.add('selected');
+      const isCustom = id === 'jt-custom';
+      document.getElementById('customJobTypeWrap').style.display = isCustom ? 'block' : 'none';
+      if (!isCustom) document.getElementById('err-customjobtype').style.display = 'none';
       updateProgress();
     });
   });
@@ -482,7 +585,9 @@
     if (document.getElementById('franchisee').value) filled++;
     if (document.getElementById('suburb').value) filled++;
     if (document.getElementById('state').value) filled++;
-    if (document.querySelector('input[name="jobType"]:checked')) filled++;
+    const checkedJob = document.querySelector('input[name="jobType"]:checked');
+    const customVal = document.getElementById('customJobType') ? document.getElementById('customJobType').value.trim() : '';
+    if (checkedJob && (checkedJob.value !== 'custom' || customVal)) filled++;
     if (selectedPhoto) filled++;
     document.getElementById('progressFill').style.width = `${(filled / total) * 100}%`;
   }
@@ -504,6 +609,11 @@
     const jobType = document.querySelector('input[name="jobType"]:checked');
     document.getElementById('err-jobtype').style.display = jobType ? 'none' : 'block';
     if (!jobType) valid = false;
+    if (jobType && jobType.value === 'custom') {
+      const customVal = document.getElementById('customJobType').value.trim();
+      document.getElementById('err-customjobtype').style.display = customVal ? 'none' : 'block';
+      if (!customVal) valid = false;
+    }
 
     if (!selectedPhoto) { document.getElementById('err-photo').style.display = 'block'; valid = false; }
     else { document.getElementById('err-photo').style.display = 'none'; }
@@ -535,7 +645,7 @@
 
     try {
       const submissionId = Date.now().toString();
-      const photoRef = ref(storage, `job_photos/${submissionId}/${selectedPhoto.name}`);
+      const photoRef = ref(storage, `electrical/job_photos/${submissionId}/${selectedPhoto.name}`);
       const uploadTask = uploadBytesResumable(photoRef, selectedPhoto);
 
       const photoURL = await new Promise((resolve, reject) => {
@@ -556,14 +666,18 @@
 
       btnText.textContent = 'Saving submission...';
 
-      await addDoc(collection(db, 'job_submissions'), {
+      await addDoc(collection(db, 'submissions', 'electrical', 'jobs'), {
         submission_id: submissionId,
         division: 'electrical',
         timestamp: serverTimestamp(),
         franchisee: document.getElementById('franchisee').value,
         suburb: document.getElementById('suburb').value.trim(),
         state: document.getElementById('state').value,
-        job_type: document.querySelector('input[name="jobType"]:checked').value,
+        job_type: (() => {
+          const checked = document.querySelector('input[name="jobType"]:checked');
+          if (checked.value === 'custom') return document.getElementById('customJobType').value.trim();
+          return checked.value;
+        })(),
         customer_type: document.getElementById('customerType').value || null,
         problem_description: document.getElementById('problemDesc').value.trim() || null,
         notes: document.getElementById('notes').value.trim() || null,
